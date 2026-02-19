@@ -1,18 +1,22 @@
-# 📊 Stock Market Analysis 
-
-# Project Overview:
-
-This project analyzes historical stock market data to:
-Identify trading patterns
-Perform technical analysis
-Generate business insights
-Apply data cleaning using business rules
-Build SQL analytics queries
-Visualize trends using Python
+## 📊 Stock Market Analysis 
 
 
+## Project Overview:
 
-# PROJECT WORKFLOW
+This project analyzes historical stock market data to uncover trading patterns, evaluate company performance, and generate business insights using a complete Data Engineering pipeline.
+
+
+- Python-based ETL processing
+- Data cleaning & business rule validation
+- MySQL data modeling & analytics
+- Technical indicators (Volatility, Moving Averages)
+- Business insights generation
+- Data visualization dashboards
+
+
+
+
+## PROJECT WORKFLOW
 
 Data Loading
       ↓
@@ -30,47 +34,48 @@ Technical Analysis
       ↓
 Business Insights
 
-# Tech Stack
+
+## Tech Stack
 Python	Data Processing & ETL
 Pandas	Data Cleaning & Transformation
 NumPy	Numerical Calculations
 MySQL	Data Storage & SQL Analytics
 Matplotlib	Data Visualization
 
-# OBJECTIVES
+## OBJECTIVES
 
 Identify reliable stocks using historical data
 Analyze and predict stock price trends
 Understand factors influencing stock movement
 
-# BUSINESS RULES APPLIED
+## BUSINESS RULES APPLIED
 
-# 1.Missing Values Handling
+## 1.Missing Values Handling
 close_price → Median per stock
 volume → 0
 high_price → max(open, close)
 low_price → min(open, close)
-# 2.Price Sanity Checks
+## 2.Price Sanity Checks
 high ≥ open & close
 low ≤ open & close
-# 3.Trend Classification
+## 3.Trend Classification
 UP / DOWN / NO_CHANGE
 
-# TECHNICAL ANALYSIS PERFORMED
+## TECHNICAL ANALYSIS PERFORMED
 
 Daily closing price trends
 Volatility analysis using daily returns
 Volume vs price movement correlation
 Moving averages (7-day & 30-day)
 
-# Outcomes
+## Outcomes
 
 Cleaned and validated stock dataset
 Technical analysis visualizations
 Performance comparison across stocks
 Investment-oriented insights
 
-# 🖼️ Visualizations
+## 🖼️ Visualizations
 
 1.Plot daily closing price trends per stock
 
